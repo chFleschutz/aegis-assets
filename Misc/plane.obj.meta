@@ -1,0 +1,15 @@
+{
+  "id": "f0ab6bc4d6b0c28b",
+  "importer": "model",
+  "importerVersion": 1,
+  "settings": {
+    "upAxis": "Y",
+    "handedness": "Right",
+    "scale": 1,
+    "strictNames": false
+  },
+  "subAssets": {
+    "Material/#default": "b756ec79c17f1a97",
+    "StaticMesh/plane/0": "b78e76b4e631a8af"
+  }
+}

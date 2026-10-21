@@ -1,0 +1,15 @@
+{
+  "id": "b83ec2728823ec9f",
+  "importer": "model",
+  "importerVersion": 1,
+  "settings": {
+    "upAxis": "Y",
+    "handedness": "Right",
+    "scale": 1,
+    "strictNames": false
+  },
+  "subAssets": {
+    "Material/#default": "01c74cf497afcd6b",
+    "StaticMesh/teapot/0": "ab02c2bc5c8d96f5"
+  }
+}

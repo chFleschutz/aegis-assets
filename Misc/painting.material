@@ -1,0 +1,9 @@
+{
+  "type": "Material",
+  "id": "ef0a1829628bfca0",
+  "version": 1,
+  "template": "d569ac68e5f612cb",
+  "parameters": {
+    "albedoMap": "f4a802d6093346fd"
+  }
+}
