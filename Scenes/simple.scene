@@ -1,0 +1,1160 @@
+{
+  "type": "Scene",
+  "id": "de452e2020b07221",
+  "version": 1,
+  "types": {
+    "AmbientLight": 1,
+    "Camera": 1,
+    "DirectionalLight": 1,
+    "DynamicTag": 1,
+    "KinematicMovementController": 1,
+    "MainCamera": 1,
+    "MeshRenderer": 1,
+    "PointLight": 1,
+    "Rotator": 1,
+    "Sky": 1,
+    "Transform": 1
+  },
+  "entities": [
+    {
+      "id": "0d445f5ff91258b5",
+      "name": "Light 0",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.4556607, 0.9688458, 0.4759934],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [10, 0, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "0fa43e24873b888f",
+      "name": "Light 13",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.44885767, 0.5904464, 0.2349652],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [2.9028463, 9.569404, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "14e61b23e45cf338",
+      "name": "Light 18",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.4729209, 0.17423403, 0.44420272],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-1.9509032, 9.807853, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "15de7c3e6475bf52",
+      "name": "Light 63",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.7227166, 0.74091303, 0.30099052],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [9.951847, -0.98017246, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "1b295d781907dc2a",
+      "name": "Light 9",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.48152584, 0.23837739, 0.29408222],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [6.3439326, 7.7301044, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "1d88d18ef389f6ca",
+      "name": "Light 28",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.9766645, 0.48552322, 0.040115356],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-9.238795, 3.826835, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "25dc62d0ca80196e",
+      "name": "Light 42",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.44049013, 0.62228644, 0.6357171],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-5.555704, -8.314694, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "2713706ed68d880d",
+      "name": "Light 14",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.7751273, 0.0668869, 0.71581],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [1.9509035, 9.807853, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "2794ff9e68da4fe4",
+      "name": "Light 48",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.74725336, 0.7619889, 0.8974882],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [1.1924881e-07, -10, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "2914432fb66ae713",
+      "name": "Light 53",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.08298445, 0.10582906, 0.17462069],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [4.7139673, -8.819213, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "2af73532a6375795",
+      "name": "Light 43",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.11804533, 0.29559678, 0.13144231],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-4.713967, -8.819213, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "2e15644cde0f7b31",
+      "name": "Light 21",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.9869867, 0.41204315, 0.08325899],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-4.7139664, 8.819213, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "33d059712fb1c684",
+      "name": "Light 46",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.7345471, 0.3806576, 0.5741334],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-1.9509039, -9.807853, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "3a3244236130a93a",
+      "name": "Light 16",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.5422217, 0.29137868, 0.7190325],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-4.371139e-07, 10, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "3d44ceca81edaf18",
+      "name": "Light 51",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.84451735, 0.4394366, 0.87321997],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [2.9028459, -9.569404, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "40910ccaad722398",
+      "name": "Light 23",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.2939512, 0.50888234, 0.7692227],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-6.3439326, 7.730105, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "41bbd4496ac85cbd",
+      "name": "Light 47",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.26579386, 0.4077378, 0.591176],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-0.980174, -9.951847, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "438e98337ad82c2d",
+      "name": "Light 52",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.7490808, 0.33899075, 0.8333445],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [3.826836, -9.238794, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "43a89d446ce6ca41",
+      "name": "Light 45",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.5188581, 0.6185415, 0.7821173],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-2.9028454, -9.569404, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "461b166a8962788e",
+      "name": "Light 1",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.028824687, 0.47132802, 0.6031711],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [9.951847, 0.98017144, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "47136bf4c090a393",
+      "name": "Light 41",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.7524732, 0.7917315, 0.2098872],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-6.343933, -7.7301044, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "496e6675e33a97a8",
+      "name": "Light 54",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.009202659, 0.6778982, 0.26740444],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [5.555701, -8.314697, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "4b115cad468e82bf",
+      "name": "Directional Light",
+      "children": [],
+      "components": {
+        "DirectionalLight": {
+          "color": [1, 1, 1],
+          "intensity": 1
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0.46193975, 0.19134173, 0.3314136, 0.8001031],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "4b5dc303f09e02d9",
+      "name": "Light 24",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.3301463, 0.11752057, 0.025502741],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-7.071068, 7.071068, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "4bd1b44f92b654e7",
+      "name": "Light 8",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.21327573, 0.23286831, 0.7943126],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [7.071068, 7.071068, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "526bd68a380c9aa3",
+      "name": "Light 36",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.5124367, 0.55294365, 0.4531572],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-9.238795, -3.8268342, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "57d4397775963801",
+      "name": "Light 27",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.13481843, 0.8188637, 0.7057728],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-8.819212, 4.7139683, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "58131b8e0d16c9d5",
+      "name": "Ambient Light",
+      "children": [],
+      "components": {
+        "AmbientLight": {
+          "color": [1, 1, 1],
+          "intensity": 0.1
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "5a6a80bdc17659fd",
+      "name": "Light 37",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.14383984, 0.61864656, 0.71981394],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-8.819212, -4.713968, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "5a99992e62c66f2e",
+      "name": "Light 25",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.57075155, 0.23753548, 0.06844437],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-7.730105, 6.3439326, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "673fc9dbe8135bf0",
+      "name": "Light 44",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.6585006, 0.70416105, 0.8088888],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-3.8268356, -9.238795, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "696f190e450dadeb",
+      "name": "Light 31",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.52545345, 0.83316565, 0.21041936],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-9.951847, 0.98017097, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "6a81b0689ab65ecd",
+      "name": "plane",
+      "children": [],
+      "components": {
+        "MeshRenderer": {
+          "mesh": "b78e76b4e631a8af",
+          "material": "ef0a1829628bfca0"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [2, 2, 2]
+        }
+      }
+    },
+    {
+      "id": "6b91891a034a56a7",
+      "name": "teapot",
+      "children": [],
+      "components": {
+        "DynamicTag": {},
+        "MeshRenderer": {
+          "mesh": "ab02c2bc5c8d96f5",
+          "material": "60d74f2e68ca9922"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [2, 2, 2]
+        }
+      },
+      "scripts": [
+        {
+          "Rotator": {
+            "speed": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "6f4cc2ab78c34a53",
+      "name": "Light 20",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.49190366, 0.9916686, 0.5371629],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-3.826834, 9.238795, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "747d6bb22c584093",
+      "name": "Light 30",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.5163487, 0.27739078, 0.1265896],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-9.807853, 1.950903, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "78ed97d6a6e1ecfc",
+      "name": "Light 5",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.8560717, 0.75213444, 0.608406],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [8.819213, 4.7139673, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "7f478518f328d96e",
+      "name": "Light 29",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.25182748, 0.5178684, 0.17876482],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-9.569404, 2.9028473, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "7fadba8890c12050",
+      "name": "Light 49",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.62623954, 0.29063278, 0.40599585],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [0.98016953, -9.951847, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "8247b3ac7dc0189d",
+      "name": "Light 57",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.62118703, 0.38293326, 0.86644834],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [7.7301054, -6.3439317, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "8260eaa4e284287a",
+      "name": "Light 33",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.85787344, 0.1445157, 0.6047629],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-9.951847, -0.9801703, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "85af7d1f21fe7cff",
+      "name": "Light 17",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.597679, 0.29415017, 0.10247308],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-0.980171, 9.951847, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "879a88d5232de56f",
+      "name": "Skybox",
+      "children": [],
+      "components": {
+        "Sky": {
+          "environment": null
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "8812f80c0190ee0f",
+      "name": "Light 10",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.027518332, 0.90332425, 0.1012848],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [5.555702, 8.314696, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "883634b273f3a36e",
+      "name": "Light 4",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.612478, 0.6443166, 0.058571815],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [9.238795, 3.8268347, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "8bec1d1f29f405ad",
+      "name": "Light 6",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.8105821, 0.14555067, 0.010671556],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [8.314696, 5.555702, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "8e54e1e846470c25",
+      "name": "Light 40",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.049922526, 0.31171268, 0.3999986],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-7.0710683, -7.071067, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "8f7e0ab1730e3869",
+      "name": "Light 19",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.38749987, 0.48869133, 0.4957099],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-2.9028473, 9.569403, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "91458db331834fdc",
+      "name": "Light 32",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.81797165, 0.8105858, 0.56397855],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-10, -8.742278e-07, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "96100a899fee9fb1",
+      "name": "Light 34",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.9997341, 0.24095726, 0.5574994],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-9.807853, -1.9509025, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "97320817f6b83c20",
+      "name": "Light 61",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.5437046, 0.6723942, 0.17011607],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [9.569403, -2.9028485, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "988b5589d061cb88",
+      "name": "Light 39",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.52933973, 0.7706485, 0.07468343],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-7.7301054, -6.343932, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "99bc55f81cc01335",
+      "name": "Light 59",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.61526895, 0.17188, 0.54370636],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [8.819211, -4.7139697, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "9cdad5f6b8faa682",
+      "name": "Light 11",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.8002544, 0.43523753, 0.8330226],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [4.713968, 8.819212, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "b468fd0bf89cf8d3",
+      "name": "Light 12",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.49119085, 0.5526348, 0.7567398],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [3.8268342, 9.238795, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "b4963078fd8f4440",
+      "name": "Light 56",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.55842376, 0.7263987, 0.90131164],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [7.071067, -7.071069, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "bc5461ae200f3743",
+      "name": "Light 50",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.6990225, 0.0070911646, 0.6980912],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [1.9509041, -9.807853, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "c1d6352a21f8d759",
+      "name": "Light 26",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.7179656, 0.035427213, 0.11217648],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-8.314696, 5.5557017, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "c41e9cab220e4e2b",
+      "name": "Light 38",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.4231071, 0.7419073, 0.41434002],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-8.314695, -5.555703, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "c5f574488d2c0735",
+      "name": "Light 58",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.2877844, 0.44009614, 0.47611248],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [8.314696, -5.555703, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "c7a6bf53b0a82281",
+      "name": "Light 15",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.5197812, 0.94239134, 0.47489208],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [0.9801713, 9.951847, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "c84653324a51f7d8",
+      "name": "Light 35",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.58687764, 0.97402596, 0.6853761],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-9.569404, -2.9028463, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "c8df16f221100254",
+      "name": "Light 2",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.3029611, 0.79878527, 0.7722652],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [9.807853, 1.9509032, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "dbcb5faff3181008",
+      "name": "Light 62",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.5318734, 0.8987668, 0.50316286],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [9.807853, -1.9509023, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "de666f4f03915240",
+      "name": "Light 7",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.72584146, 0.38511848, 0.23732322],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [7.730105, 6.3439326, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "e018772aff2d5108",
+      "name": "Main Camera",
+      "children": [],
+      "components": {
+        "Camera": {
+          "fov": 1.0471976,
+          "near": 0.1,
+          "far": 1000
+        },
+        "DynamicTag": {},
+        "MainCamera": {},
+        "Transform": {
+          "location": [0, -15, 10],
+          "rotation": [-0.25881904, 0, 0, 0.9659258],
+          "scale": [1, 1, 1]
+        }
+      },
+      "scripts": [
+        {
+          "KinematicMovementController": {
+            "moveSpeed": 5,
+            "lookSpeed": 1.5,
+            "mouseSensitivity": 0.004,
+            "mousePanSpeed": 0.02
+          }
+        }
+      ]
+    },
+    {
+      "id": "e11c7488f7c06cc1",
+      "name": "Light 60",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.84034556, 0.47264385, 0.5528398],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [9.238795, -3.8268342, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "e7c33b7f39cd9762",
+      "name": "Light 55",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.65019524, 0.38108397, 0.26920974],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [6.343933, -7.7301044, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "fa1ba2430605af48",
+      "name": "Light 22",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.058964133, 0.7209188, 0.9217915],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [-5.5557017, 8.314696, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "fe1a1e6db96af6ce",
+      "name": "Light 3",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [0.10615313, 0.52431923, 0.27113324],
+          "intensity": 200
+        },
+        "Transform": {
+          "location": [9.569404, 2.9028466, 3],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    }
+  ]
+}
