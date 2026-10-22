@@ -1,0 +1,280 @@
+{
+  "type": "Scene",
+  "id": "38a6ab7d7bc60d40",
+  "version": 1,
+  "types": {
+    "AmbientLight": 1,
+    "Camera": 1,
+    "DirectionalLight": 1,
+    "DynamicTag": 1,
+    "KinematicMovementController": 1,
+    "MainCamera": 1,
+    "MeshRenderer": 1,
+    "Sky": 1,
+    "Spawner": 1,
+    "Transform": 1
+  },
+  "entities": [
+    {
+      "id": "001bacb9b918f152",
+      "name": "Cube 6",
+      "children": [],
+      "components": {
+        "MeshRenderer": {
+          "mesh": "1f57e55da564f514",
+          "material": "da8afe6c2c394909"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "0618055f921f9f5a",
+      "name": "Cube 1",
+      "children": [],
+      "components": {
+        "MeshRenderer": {
+          "mesh": "1f57e55da564f514",
+          "material": "ef9b76c1df6fd914"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "0702573607d676bd",
+      "name": "Cube 4",
+      "children": [],
+      "components": {
+        "MeshRenderer": {
+          "mesh": "1f57e55da564f514",
+          "material": "0fe7fe59044875c6"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "174463382d06aaee",
+      "name": "Cube 5",
+      "children": [],
+      "components": {
+        "MeshRenderer": {
+          "mesh": "1f57e55da564f514",
+          "material": "0d47203ca48af3de"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "1d20756141a02cd2",
+      "name": "Directional Light",
+      "children": [],
+      "components": {
+        "DirectionalLight": {
+          "color": [1, 1, 1],
+          "intensity": 2
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0.46193975, 0.19134173, 0.3314136, 0.8001031],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "2fa672d4d3fea197",
+      "name": "Main Camera",
+      "children": [],
+      "components": {
+        "Camera": {
+          "fov": 1.0471976,
+          "near": 0.1,
+          "far": 1000
+        },
+        "DynamicTag": {},
+        "MainCamera": {},
+        "Transform": {
+          "location": [-500, -500, 330],
+          "rotation": [-0.23911761, 0.09904577, -0.36964384, 0.8923991],
+          "scale": [1, 1, 1]
+        }
+      },
+      "scripts": [
+        {
+          "KinematicMovementController": {
+            "moveSpeed": 5,
+            "lookSpeed": 1.5,
+            "mouseSensitivity": 0.004,
+            "mousePanSpeed": 0.02
+          }
+        }
+      ]
+    },
+    {
+      "id": "3b1eeeecbccc6e02",
+      "name": "Cube 9",
+      "children": [],
+      "components": {
+        "MeshRenderer": {
+          "mesh": "1f57e55da564f514",
+          "material": "c595eb3a47d12160"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "44cf0dde44247077",
+      "name": "Cube 7",
+      "children": [],
+      "components": {
+        "MeshRenderer": {
+          "mesh": "1f57e55da564f514",
+          "material": "9ad18c73d472ee5f"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "6bf121edc5edafca",
+      "name": "Spawner",
+      "children": ["ced3d6fdf2b26d00", "0618055f921f9f5a", "c7e68e40712feb1b", "b0c46879549524dc", "0702573607d676bd", "174463382d06aaee", "001bacb9b918f152", "44cf0dde44247077", "8a896f7d71baed56", "3b1eeeecbccc6e02"],
+      "components": {
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      },
+      "scripts": [
+        {
+          "Spawner": {
+            "count": 1000000,
+            "extent": [250, 250, 250],
+            "scale": [0.5, 2],
+            "tilt": [0, 0, 0],
+            "tumble": true,
+            "spin": [0, 0],
+            "seed": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "8a896f7d71baed56",
+      "name": "Cube 8",
+      "children": [],
+      "components": {
+        "MeshRenderer": {
+          "mesh": "1f57e55da564f514",
+          "material": "aa59a60926ef9ae9"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "b0c46879549524dc",
+      "name": "Cube 3",
+      "children": [],
+      "components": {
+        "MeshRenderer": {
+          "mesh": "1f57e55da564f514",
+          "material": "75beeae89401f524"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "c7e68e40712feb1b",
+      "name": "Cube 2",
+      "children": [],
+      "components": {
+        "MeshRenderer": {
+          "mesh": "1f57e55da564f514",
+          "material": "582b34fc4b536cd3"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "ced3d6fdf2b26d00",
+      "name": "Cube 0",
+      "children": [],
+      "components": {
+        "MeshRenderer": {
+          "mesh": "1f57e55da564f514",
+          "material": "00ec32f47e710a78"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "de54828f3e982ec0",
+      "name": "Skybox",
+      "children": [],
+      "components": {
+        "Sky": {
+          "environment": "09e80a13cdf16414"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "ff44d94374c0be0b",
+      "name": "Ambient Light",
+      "children": [],
+      "components": {
+        "AmbientLight": {
+          "color": [1, 1, 1],
+          "intensity": 0.25
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    }
+  ]
+}

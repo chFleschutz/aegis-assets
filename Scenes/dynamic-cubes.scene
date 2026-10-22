@@ -1,0 +1,136 @@
+{
+  "type": "Scene",
+  "id": "347ada02ce5fff84",
+  "version": 1,
+  "types": {
+    "AmbientLight": 1,
+    "Camera": 1,
+    "DirectionalLight": 1,
+    "DynamicTag": 1,
+    "KinematicMovementController": 1,
+    "MainCamera": 1,
+    "MeshRenderer": 1,
+    "Sky": 1,
+    "Spawner": 1,
+    "Transform": 1
+  },
+  "entities": [
+    {
+      "id": "72f0accbfdaf01f5",
+      "name": "Skybox",
+      "children": [],
+      "components": {
+        "Sky": {
+          "environment": "09e80a13cdf16414"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "a56edda5f400d2f8",
+      "name": "Ambient Light",
+      "children": [],
+      "components": {
+        "AmbientLight": {
+          "color": [1, 1, 1],
+          "intensity": 0.25
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "a901d6891036df77",
+      "name": "Directional Light",
+      "children": [],
+      "components": {
+        "DirectionalLight": {
+          "color": [1, 1, 1],
+          "intensity": 2
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0.46193975, 0.19134173, 0.3314136, 0.8001031],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "dfc998cf0e0d3839",
+      "name": "Cube",
+      "children": [],
+      "components": {
+        "MeshRenderer": {
+          "mesh": "1f57e55da564f514",
+          "material": "5cf610380bba503e"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "e08ff02b4f350e3a",
+      "name": "Main Camera",
+      "children": [],
+      "components": {
+        "Camera": {
+          "fov": 1.0471976,
+          "near": 0.1,
+          "far": 1000
+        },
+        "DynamicTag": {},
+        "MainCamera": {},
+        "Transform": {
+          "location": [-200, -200, 150],
+          "rotation": [-0.25465572, 0.105481856, -0.36785895, 0.88808995],
+          "scale": [1, 1, 1]
+        }
+      },
+      "scripts": [
+        {
+          "KinematicMovementController": {
+            "moveSpeed": 5,
+            "lookSpeed": 1.5,
+            "mouseSensitivity": 0.004,
+            "mousePanSpeed": 0.02
+          }
+        }
+      ]
+    },
+    {
+      "id": "e1c5abde8177a1db",
+      "name": "Spawner",
+      "children": ["dfc998cf0e0d3839"],
+      "components": {
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      },
+      "scripts": [
+        {
+          "Spawner": {
+            "count": 10000,
+            "extent": [100, 100, 100],
+            "scale": [0.5, 2],
+            "tilt": [0, 0, 0],
+            "tumble": true,
+            "spin": [10, 90],
+            "seed": 1
+          }
+        }
+      ]
+    }
+  ]
+}
