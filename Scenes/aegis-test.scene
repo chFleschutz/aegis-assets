@@ -1,0 +1,113 @@
+{
+  "type": "Scene",
+  "id": "5c3a91d27e0b46f8",
+  "version": 1,
+  "types": {
+    "AmbientLight": 1,
+    "Camera": 1,
+    "DirectionalLight": 1,
+    "MainCamera": 1,
+    "PointLight": 1,
+    "SceneInstance": 1,
+    "Sky": 1,
+    "Transform": 1
+  },
+  "entities": [
+    {
+      "id": "08a50a678d2c1c13",
+      "name": "Point Light",
+      "children": [],
+      "components": {
+        "PointLight": {
+          "color": [1, 0.4, 0.1],
+          "intensity": 100
+        },
+        "Transform": {
+          "location": [1.2, -1, 0.6],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "42d9f11ce183b8d1",
+      "name": "Ambient Light",
+      "children": [],
+      "components": {
+        "AmbientLight": {
+          "color": [1, 1, 1],
+          "intensity": 1
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "7ca660dbdb512f96",
+      "name": "Camera",
+      "children": [],
+      "components": {
+        "Camera": {
+          "fov": 1.0471976,
+          "near": 0.1,
+          "far": 1000
+        },
+        "MainCamera": {},
+        "Transform": {
+          "location": [0, -3, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "b9ee71b9c40e872e",
+      "name": "Directional Light",
+      "children": [],
+      "components": {
+        "DirectionalLight": {
+          "color": [1, 1, 1],
+          "intensity": 1
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0.46193975, 0.19134173, 0.3314136, 0.8001031],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "d6d7ca088f6d713a",
+      "name": "DamagedHelmet",
+      "children": [],
+      "components": {
+        "SceneInstance": {
+          "scene": "2921b134213ff511"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "dedc08129ceecac1",
+      "name": "Sky",
+      "children": [],
+      "components": {
+        "Sky": {
+          "environment": "09e80a13cdf16414"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    }
+  ]
+}
