@@ -16,7 +16,7 @@ Tests various metal and roughness values (texture mapped).
 
 ## Screenshot
 
-![screenshot](screenshot/screenshot.png)
+![screenshot](../../../screenshots/metal_rough_spheres/screenshot.png)
 
 ## Description
 

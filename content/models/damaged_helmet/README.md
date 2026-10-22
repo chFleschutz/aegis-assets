@@ -11,7 +11,7 @@ Flight helmet with damage
 
 ## Screenshot
 
-![screenshot](screenshot/screenshot.png)
+![screenshot](../../../screenshots/damaged_helmet/screenshot.png)
 
 ## Description
 
