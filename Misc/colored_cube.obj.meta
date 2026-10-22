@@ -1,0 +1,16 @@
+{
+  "id": "351a6b8c2f2fbfe8",
+  "importer": "model",
+  "importerVersion": 1,
+  "settings": {
+    "upAxis": "Y",
+    "handedness": "Right",
+    "scale": 1,
+    "strictNames": false
+  },
+  "subAssets": {
+    "Entity/#root": "3b90135f05dc26e6",
+    "Material/#default": "25d28014b42d7f36",
+    "StaticMesh/colored_cube/0": "0899e4e7ebb6f982"
+  }
+}

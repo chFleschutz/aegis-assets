@@ -1,0 +1,12 @@
+{
+  "id": "fff1aec518853efa",
+  "importer": "environment",
+  "importerVersion": 1,
+  "settings": {
+    "upAxis": "Y",
+    "handedness": "Right",
+    "scale": 1,
+    "strictNames": false
+  },
+  "subAssets": {}
+}

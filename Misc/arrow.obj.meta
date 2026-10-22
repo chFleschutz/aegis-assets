@@ -1,0 +1,16 @@
+{
+  "id": "93ec2e8d42e229ad",
+  "importer": "model",
+  "importerVersion": 1,
+  "settings": {
+    "upAxis": "Y",
+    "handedness": "Right",
+    "scale": 1,
+    "strictNames": false
+  },
+  "subAssets": {
+    "Entity/#root": "92b3ad9d69ce4501",
+    "Material/#default": "f57e6611294fa8a0",
+    "StaticMesh/arrow/0": "0157a7d0238862a0"
+  }
+}

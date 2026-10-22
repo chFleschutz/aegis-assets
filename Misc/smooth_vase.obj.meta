@@ -1,0 +1,16 @@
+{
+  "id": "e94e9d289b35b690",
+  "importer": "model",
+  "importerVersion": 1,
+  "settings": {
+    "upAxis": "Y",
+    "handedness": "Right",
+    "scale": 1,
+    "strictNames": false
+  },
+  "subAssets": {
+    "Entity/#root": "c3ed4b6ad56677f8",
+    "Material/#default": "74b60331d9bbc2f7",
+    "StaticMesh/smooth_vase/0": "9ca525792956f31e"
+  }
+}

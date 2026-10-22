@@ -1,0 +1,28 @@
+{
+  "id": "25119531d54bb8d3",
+  "importer": "model",
+  "importerVersion": 1,
+  "settings": {
+    "upAxis": "Y",
+    "handedness": "Right",
+    "scale": 1,
+    "strictNames": false
+  },
+  "subAssets": {
+    "Entity/#root": "1f12b76aa03cd2f6",
+    "Entity/Node_0": "810293888660c2b5",
+    "Entity/Node_1": "2b2601090580d3fe",
+    "Entity/Node_2": "225d9cdc9cf67595",
+    "Entity/Node_3": "15793330aa6ed961",
+    "Entity/Node_4": "c30d4b0d5cbc356d",
+    "Entity/Node_5": "babde058207a388c",
+    "Material/#0": "2da8e12c70f5cf58",
+    "StaticMesh/Spheres.001/0": "a757103c4dcef1e9",
+    "StaticMesh/Spheres.002/0": "78c07d158594d269",
+    "StaticMesh/Spheres.003/0": "149fe9ec0e7e7446",
+    "StaticMesh/Spheres.004/0": "f3ef4e93989b6bb9",
+    "StaticMesh/Spheres/0": "9296673334babdee",
+    "Texture/Spheres_BaseColor.png": "441abbb823950ca0",
+    "Texture/Spheres_MetalRough.png": "b4036e8373a40140"
+  }
+}
