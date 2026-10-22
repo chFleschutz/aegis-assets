@@ -10,7 +10,7 @@ Futuristic helmet
 
 ## Screenshot
 
-![screenshot](screenshot/screenshot.jpg)
+![screenshot](../../../screenshots/sci_fi_helmet/screenshot.jpg)
 
 ## Description
 
