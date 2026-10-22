@@ -1,0 +1,11 @@
+{
+  "type": "Material",
+  "id": "00ec32f47e710a78",
+  "version": 1,
+  "template": "d569ac68e5f612cb",
+  "parameters": {
+    "albedo": [0.113, 0.426, 0.228],
+    "metallic": 0.445,
+    "roughness": 0.059
+  }
+}

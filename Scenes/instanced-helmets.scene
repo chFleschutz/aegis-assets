@@ -1,0 +1,135 @@
+{
+  "type": "Scene",
+  "id": "0f8680fd3f9b6963",
+  "version": 1,
+  "types": {
+    "AmbientLight": 1,
+    "Camera": 1,
+    "DirectionalLight": 1,
+    "DynamicTag": 1,
+    "KinematicMovementController": 1,
+    "MainCamera": 1,
+    "SceneInstance": 1,
+    "Sky": 1,
+    "Spawner": 1,
+    "Transform": 1
+  },
+  "entities": [
+    {
+      "id": "09afa609379a035e",
+      "name": "Spawner",
+      "children": ["594776363ba48858"],
+      "components": {
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      },
+      "scripts": [
+        {
+          "Spawner": {
+            "count": 10000,
+            "extent": [100, 100, 50],
+            "scale": [0.5, 2],
+            "tilt": [90, 0, 0],
+            "tumble": false,
+            "spin": [0, 0],
+            "seed": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "121fd12285fa8290",
+      "name": "Directional Light",
+      "children": [],
+      "components": {
+        "DirectionalLight": {
+          "color": [1, 1, 1],
+          "intensity": 2
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0.46193975, 0.19134173, 0.3314136, 0.8001031],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "36a90ffd4fac4778",
+      "name": "Main Camera",
+      "children": [],
+      "components": {
+        "Camera": {
+          "fov": 1.0471976,
+          "near": 0.1,
+          "far": 1000
+        },
+        "DynamicTag": {},
+        "MainCamera": {},
+        "Transform": {
+          "location": [150, -150, 100],
+          "rotation": [-0.2778159, -0.115075134, 0.3649717, 0.88111955],
+          "scale": [1, 1, 1]
+        }
+      },
+      "scripts": [
+        {
+          "KinematicMovementController": {
+            "moveSpeed": 5,
+            "lookSpeed": 1.5,
+            "mouseSensitivity": 0.004,
+            "mousePanSpeed": 0.02
+          }
+        }
+      ]
+    },
+    {
+      "id": "58bc3a7771180bae",
+      "name": "Ambient Light",
+      "children": [],
+      "components": {
+        "AmbientLight": {
+          "color": [1, 1, 1],
+          "intensity": 0.25
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "594776363ba48858",
+      "name": "SciFiHelmet",
+      "children": [],
+      "components": {
+        "SceneInstance": {
+          "scene": "bbe08396ee41a791"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "ea9b0c06116cc545",
+      "name": "Skybox",
+      "children": [],
+      "components": {
+        "Sky": {
+          "environment": "09e80a13cdf16414"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    }
+  ]
+}
