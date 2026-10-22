@@ -9,6 +9,7 @@
     "strictNames": false
   },
   "subAssets": {
+    "Entity/#root": "0ce84942d7dd0c41",
     "Material/#default": "01c74cf497afcd6b",
     "StaticMesh/teapot/0": "ab02c2bc5c8d96f5"
   }

@@ -1,0 +1,22 @@
+{
+  "id": "bbe08396ee41a791",
+  "importer": "model",
+  "importerVersion": 1,
+  "settings": {
+    "upAxis": "Y",
+    "handedness": "Right",
+    "scale": 1,
+    "strictNames": false
+  },
+  "subAssets": {
+    "Entity/#root": "2dbed1e98ab93f91",
+    "Entity/Camera": "2bdd1686e0e60a1e",
+    "Entity/SciFiHelmet": "10a18ce1fa8ae7f1",
+    "Material/SciFiHelmet": "97b322208b2b36e5",
+    "StaticMesh/SciFiHelmet/0": "7452da7d3a5b5774",
+    "Texture/SciFiHelmet_AmbientOcclusion.png": "518b2ae72acec3b3",
+    "Texture/SciFiHelmet_BaseColor.png": "e46ea1cc10a37160",
+    "Texture/SciFiHelmet_MetallicRoughness.png": "adf1623d3339471f",
+    "Texture/SciFiHelmet_Normal.png": "5dd63852b6f15652"
+  }
+}
