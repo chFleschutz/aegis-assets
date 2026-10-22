@@ -1,0 +1,165 @@
+{
+  "type": "Scene",
+  "id": "85d78589725e08b6",
+  "version": 1,
+  "types": {
+    "AmbientLight": 1,
+    "Camera": 1,
+    "ColorChanger": 1,
+    "DirectionalLight": 1,
+    "DynamicTag": 1,
+    "KinematicMovementController": 1,
+    "MainCamera": 1,
+    "MeshRenderer": 1,
+    "SceneInstance": 1,
+    "Sky": 1,
+    "Transform": 1
+  },
+  "entities": [
+    {
+      "id": "00292a3c3bdd3e8a",
+      "name": "MetalRoughSpheres",
+      "children": [],
+      "components": {
+        "SceneInstance": {
+          "scene": "25119531d54bb8d3"
+        },
+        "Transform": {
+          "location": [0, 5, 5],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "4940124688f4f9a1",
+      "name": "Skybox",
+      "children": [],
+      "components": {
+        "Sky": {
+          "environment": "09e80a13cdf16414"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "70f4a479946ea70c",
+      "name": "Directional Light",
+      "children": [],
+      "components": {
+        "DirectionalLight": {
+          "color": [1, 1, 1],
+          "intensity": 1
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0.19134171, 0.46193975, 0.8001031, 0.33141357],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "7653fdf4225b443b",
+      "name": "Main Camera",
+      "children": [],
+      "components": {
+        "Camera": {
+          "fov": 1.0471976,
+          "near": 0.1,
+          "far": 1000
+        },
+        "DynamicTag": {},
+        "MainCamera": {},
+        "Transform": {
+          "location": [-3, -6, 3],
+          "rotation": [0.06810296, -0.015098072, 0.21591249, -0.97391784],
+          "scale": [1, 1, 1]
+        }
+      },
+      "scripts": [
+        {
+          "KinematicMovementController": {
+            "moveSpeed": 5,
+            "lookSpeed": 1.5,
+            "mouseSensitivity": 0.004,
+            "mousePanSpeed": 0.02
+          }
+        }
+      ]
+    },
+    {
+      "id": "7e0d05f21e9e22a2",
+      "name": "SciFiHelmet",
+      "children": [],
+      "components": {
+        "SceneInstance": {
+          "scene": "bbe08396ee41a791"
+        },
+        "Transform": {
+          "location": [2, 0, 2],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "97cf0dfb5eb2812f",
+      "name": "Plane",
+      "children": [],
+      "components": {
+        "DynamicTag": {},
+        "MeshRenderer": {
+          "mesh": "b78e76b4e631a8af",
+          "material": "e669ae892880270f"
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [2, 2, 2]
+        }
+      },
+      "scripts": [
+        {
+          "ColorChanger": {
+            "speed": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad4c2cf474e215d3",
+      "name": "Ambient Light",
+      "children": [],
+      "components": {
+        "AmbientLight": {
+          "color": [1, 1, 1],
+          "intensity": 1
+        },
+        "Transform": {
+          "location": [0, 0, 0],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    {
+      "id": "ec4fa3a60a0ad2ac",
+      "name": "DamagedHelmet",
+      "children": [],
+      "components": {
+        "SceneInstance": {
+          "scene": "2921b134213ff511"
+        },
+        "Transform": {
+          "location": [-2, 0, 2],
+          "rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      }
+    }
+  ]
+}
