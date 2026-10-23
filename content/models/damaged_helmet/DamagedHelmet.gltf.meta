@@ -12,11 +12,6 @@
     "Entity/#root": "74a2466de4c9f60c",
     "Entity/node_damagedHelmet_-6514": "efb3acdeaf084eb4",
     "Material/Material_MR": "7bf8cf047a280425",
-    "StaticMesh/mesh_helmet_LP_13930damagedHelmet/0": "2c71c07da617197c",
-    "Texture/Default_AO.jpg": "5df4e7cd0b6fe3f9",
-    "Texture/Default_albedo.jpg": "8221c5d1378bed1f",
-    "Texture/Default_emissive.jpg": "802fb03de42d9a7b",
-    "Texture/Default_metalRoughness.jpg": "854674038a39f95e",
-    "Texture/Default_normal.jpg": "8b3ba1a04cd4920a"
+    "StaticMesh/mesh_helmet_LP_13930damagedHelmet/0": "2c71c07da617197c"
   }
 }
